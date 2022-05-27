@@ -10,7 +10,7 @@ Funcionalidade: Busca cep na homepage dos correitos
         Dado que eu acesso a homepage dos Correios
 
     Cenário: Buscar um cep válido
-        Quando informo o cep "ABC12345"
+        Quando informo o cep "12606-470"
         E e clico na lupa de pesquisa
         Então vejo a página de resultado com a mensagem "Resultado da Busca por Endereço ou CEP"
         E os detalhes do cep informado "12606-470"

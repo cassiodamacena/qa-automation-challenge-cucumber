@@ -23,5 +23,3 @@ Projeto de automação de testes de Conultas CEP na HomePage dos Correios. Proje
 - CEP inválido maior que 8 dígitos;
 - CEP inválido com caracter alfanumério;
 - CEP inválido com espaço em branco entre caracteres;
-
-### Boa sorte!
