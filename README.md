@@ -2,40 +2,26 @@
 
 ## Descrição:
 
-Parte da próxima etapa, será realizar a automação (frontend e backend) do serviço de Busca CEP dos Correios.
-Você deverá providenciar uma pesquisa de CEP utilizando as urls abaixo:
+Projeto de automação de testes de Conultas CEP na HomePage dos Correios. Projeto simples apenas para demonstrar o uso do Cyprres e Cucumber com execução automática via GitHubActions e relatórios gerados no Dashboard do Cypress. 
 
-*Frontend:* https://www.correios.com.br/
-
-*Backend:* https://viacep.com.br/
-
-Será necessário validar pelo menos o retorno de 3 logradouros, ou seja, utilizando 3 CEPs na pesquisa.
-
-## O que validaremos nesse teste:
-- A maneira como você construiu os seus testes. Ex: Reutilização de Código;
-- Se você respeitou o que foi requisitado no desafio;
-- Documentação (README), explicando com o máximo de detalhes que puder, sobre como configurar, executar e o motivo pelo qual você adotou a estratégia de automação para esse desafio.
-
-## Diferenciais *(Não Obrigatórios)*
-- Utilizar um framework da linguagem Javascript;
-- Utilizar BDD com Cucumber;
-- Incluir um relatório.
+*Dashboard Cypress:* https://dashboard.cypress.io/invitation/a0b0703e-ea3f-4257-bea5-846804674687
 
 
-## Como entregar sua solução?
-*1) Clone o repositório;*
+## As ferramentas utilizadas foram:
+- [git](https://git-scm.com/) (utilizada versão `2.35.2`)
+- [Node.js](https://nodejs.org/en/) (utilizada a versão `v16.15.0`)
+- npm (utilizada a versão `8.5.5`)
+- [Google Chrome](https://www.google.com/intl/pt_br/chrome/) (utilizada a versão `101.0.4951.67 (Versão oficial) 64 bits`)
+- [Visual Studio Code](https://code.visualstudio.com/) (utilizada a versão `1.67.2`)
 
-*2) Realize as alterações necessárias para construção/automação do teste;*
 
-*3) Adicione e commit todos os arquivos criados/alterados (todos mesmo);*
-
-*4) Gere um patch conforme comando de exemplo abaixo;*
-
-*5) Nos envie o patch através do email que entraremos em contato.*
-
-*Para gerar o patch:*
-```
-git format-patch origin/master --stdout > seu_nome.patch
-```
+## Cenários automatizados foram
+- CEP válido com 8 dígitos;
+- CEP válido menor que 8 digitos e finalizado com 0;
+- CEP válido/inexistente com 8 dígitos;
+- CEP válido/inexistente menor que 8 digitos;
+- CEP inválido maior que 8 dígitos;
+- CEP inválido com caracter alfanumério;
+- CEP inválido com espaço em branco entre caracteres;
 
 ### Boa sorte!
