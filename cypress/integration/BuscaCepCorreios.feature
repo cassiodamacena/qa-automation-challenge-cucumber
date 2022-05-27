@@ -36,5 +36,5 @@ Funcionalidade: Busca cep na homepage dos correitos
         |12345123   | não       | Não há dados a serem exibidos         |
         |1234567    | não       | Não há dados a serem exibidos         |
         |123456789  | não       | Não há dados a serem exibidos         |
-        |69153-28A  | não       | Não há dados a serem exibidos         |
+        |69153-ABC  | não       | Não há dados a serem exibidos         |
         |9153 285   | não       | Não há dados a serem exibidos         |
