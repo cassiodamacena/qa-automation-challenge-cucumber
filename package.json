@@ -1,0 +1,26 @@
+{
+  "name": "qa-automation-challenge-cucumber",
+  "version": "1.0.0",
+  "description": "Projeto QA Automation Challenge Quan.to (Bdd/Cucumber/GitHubAction)\u001b[D/CypressDaschboard)\u001b[C\u001b[D",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cassiodamacena/qa-automation-challenge-cucumber.git"
+  },
+  "author": "Cassio Damacena",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cassiodamacena/qa-automation-challenge-cucumber/issues"
+  },
+  "homepage": "https://github.com/cassiodamacena/qa-automation-challenge-cucumber#readme",
+  "devDependencies": {
+    "cypress": "^9.7.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}

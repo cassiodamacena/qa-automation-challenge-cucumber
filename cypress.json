@@ -1,0 +1,8 @@
+{
+    "projectId": "422mni",
+    "viewportWidth": 1920,
+    "viewportHeight": 1080,
+    "baseUrl": "https://www.correios.com.br",
+    "ignoreTestFiles": "*.js",
+    "testFiles": "**/*.{feature,features}"
+}
